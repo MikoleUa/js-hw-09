@@ -58,6 +58,5 @@ function changeSpanContent() {
   refs.spanHours.textContent = addLeadingZero(dateObj.hours);
   refs.spanMinutes.textContent = addLeadingZero(dateObj.minutes);
   refs.spanSeconds.textContent = addLeadingZero(dateObj.seconds);
-  console.log(123);
 }
 refs.buttonDateStart.addEventListener('click', onButtonStartTimer);
